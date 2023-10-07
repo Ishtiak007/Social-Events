@@ -3,20 +3,26 @@ import { Link, NavLink } from "react-router-dom";
 const Navbar = () => {
     const navLinks = <>
         <li><NavLink className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? " font-semibold text-[18px] underline" : "text-[#0B0B0B] font-semibold text-[18px]"
+            isPending ? "pending" : isActive ? " font-semibold text-[18px] underline" : "text-white font-semibold text-[18px]"
         } to='/'>Home</NavLink></li>
         <li><NavLink className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? " font-semibold text-[18px] underline" : "text-[#0B0B0B] font-semibold text-[18px]"
+            isPending ? "pending" : isActive ? " font-semibold text-[18px] underline" : "text-white font-semibold text-[18px]"
         } to='/service'>Service</NavLink></li>
         <li><NavLink className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? " font-semibold text-[18px] underline" : "text-[#0B0B0B] font-semibold text-[18px]"
+            isPending ? "pending" : isActive ? " font-semibold text-[18px] underline" : "text-white font-semibold text-[18px]"
         } to='/feature'>Feature</NavLink></li>
         <li><NavLink className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? " font-semibold text-[18px] underline" : "text-[#0B0B0B] font-semibold text-[18px]"
+            isPending ? "pending" : isActive ? " font-semibold text-[18px] underline" : "text-white font-semibold text-[18px]"
         } to='/about'>About</NavLink></li>
+        <li><NavLink className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? " font-semibold text-[18px] underline" : "text-white font-semibold text-[18px]"
+        } to='/login'>Login</NavLink></li>
+        <li><NavLink className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? " font-semibold text-[18px] underline" : "text-white font-semibold text-[18px]"
+        } to='/register'>Register</NavLink></li>
     </>
     return (
-        <div className="navbar bg-white mt-5 rounded-t-md">
+        <div className="navbar bg-[#444343a5] mt-5 rounded-t-md sticky inset-0 z-10">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">

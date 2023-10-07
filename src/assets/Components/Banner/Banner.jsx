@@ -13,7 +13,7 @@ const Banner = () => {
                                 <div className="flex h-full items-center justify-center">
                                     <div>
                                         <div>
-                                            <h1 className="text-white lg:text-5xl text-[18px] font-bold my-[30px] italic">The living moment is everything</h1>
+                                            <h1 className="text-white lg:text-5xl text-[18px] my-[30px] font-semibold font-serif">The living moment is everything</h1>
                                             <button className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Let's Celebrate</button>
                                         </div>
                                     </div>
@@ -29,7 +29,7 @@ const Banner = () => {
                                 <div className="flex h-full items-center justify-center">
                                     <div>
                                         <div>
-                                            <h1 className="text-white lg:text-5xl text-[18px] font-bold my-[30px] italic">The living moment is everything</h1>
+                                            <h1 className="text-white lg:text-5xl text-[18px]  my-[30px] font-semibold font-serif">The living moment is everything</h1>
                                             <button className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Let's Celebrate</button>
                                         </div>
                                     </div>
@@ -45,8 +45,8 @@ const Banner = () => {
                                 <div className="flex h-full items-center justify-center">
                                     <div>
                                         <div>
-                                            <h1 className="text-white lg:text-5xl text-[18px] font-bold my-[30px] italic">The living moment is everything</h1>
-                                            <button className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Let's Celebrate</button>
+                                            <h1 className="text-white lg:text-5xl text-[18px]  my-[30px] font-semibold font-serif">The living moment is everything</h1>
+                                            <button className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Lets Celebrate</button>
                                         </div>
                                     </div>
                                 </div>
@@ -61,7 +61,7 @@ const Banner = () => {
                                 <div className="flex h-full items-center justify-center">
                                     <div>
                                         <div>
-                                            <h1 className="text-white lg:text-5xl text-[18px] font-bold my-[30px] italic">The living moment is everything</h1>
+                                            <h1 className="text-white lg:text-5xl text-[18px]  my-[30px] font-semibold font-serif">The living moment is everything</h1>
                                             <button className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Let's Celebrate</button>
                                         </div>
                                     </div>
@@ -77,7 +77,7 @@ const Banner = () => {
                                 <div className="flex h-full items-center justify-center">
                                     <div>
                                         <div>
-                                            <h1 className="text-white lg:text-5xl text-[18px] font-bold my-[30px] italic">The living moment is everything</h1>
+                                            <h1 className="text-white lg:text-5xl text-[18px] my-[30px] font-semibold font-serif">The living moment is everything</h1>
                                             <button className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Let's Celebrate</button>
                                         </div>
                                     </div>

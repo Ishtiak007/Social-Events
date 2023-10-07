@@ -5,7 +5,7 @@ const WelcomeSection = () => {
                 <div className="flex-1 flex justify-center items-center text-center p-2">
                     <div>
                         <h1 className="md:text-5xl font-medium"><span className="text-orange-400">Hello!</span> We Are an Event Planning Agency</h1>
-                        <p className="my-3">As the premier event planning company in the area, we know that it’s not “one size fits all”. Each event and client is unique and we believe our services should be as well. We know that it should be “Can I hire a planner?” not “Can I afford one?”.......Come on,let's celebrate together</p>
+                        <p className="my-3">As the premier event planning company in the area, we know that it’s not “one size fits all”. Each event and client is unique and we believe our services should be as well. We know that it should be “Can I hire a planner?” not “Can I afford one?”.......Come on,lets celebrate together</p>
                         <h2 className="italic text-3xl my-9">We take care of preparation, you enjoy the celebration! <span className="text-lg font-bold text-[#D7A477]">HELLO & WELCOME . . .</span></h2>
                     </div>
 

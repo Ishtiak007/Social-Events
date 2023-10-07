@@ -11,6 +11,9 @@ import Service from './assets/Components/Service/Service.jsx';
 import Feature from './assets/Components/Feature/Feature.jsx';
 import About from './assets/Components/About/About.jsx';
 import CategoryDetails from './assets/Components/AllCategories/CategoryDetails';
+import Login from './assets/Components/Login/Login';
+import Register from './assets/Components/Register/Register';
+import AuthProvider from './assets/Provider/AuthProvider';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -33,6 +36,14 @@ const router = createBrowserRouter([
         element: <About></About>
       },
       {
+        path: '/login',
+        element: <Login></Login>
+      },
+      {
+        path: '/register',
+        element: <Register></Register>
+      },
+      {
         path: '/category/:id',
         element: <CategoryDetails></CategoryDetails>,
         loader: () => fetch('../data.json')
@@ -43,6 +54,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>,
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
+  </React.StrictMode>
 )
