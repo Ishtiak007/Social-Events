@@ -4,7 +4,7 @@ const Banner = () => {
     return (
         <div>
             <div>
-                <Carousel autoPlay infiniteLoop showStatus={false}>
+                <Carousel autoPlay infiniteLoop showStatus={false} showThumbs={false}>
                     <div>
                         <div
                             className="relative overflow-hidden rounded-b-md bg-no-repeat text-center bg-[url('https://i.ibb.co/3ytp7sZ/carlo-buttinoni-l-KCp-UYu2-TDk-unsplash.jpg')] h-[200px] lg:h-[600px] bg-cover">

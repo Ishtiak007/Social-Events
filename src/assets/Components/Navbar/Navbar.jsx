@@ -16,7 +16,7 @@ const Navbar = () => {
         } to='/about'>About</NavLink></li>
     </>
     return (
-        <div className="navbar bg-[#0404044e]  mt-5 rounded-t-md">
+        <div className="navbar bg-white mt-5 rounded-t-md">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -26,7 +26,7 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <Link to='/' className="border p-1"><span className="md:text-3xl font-bold italic">Social</span><span className="md:text-3xl font-bold text-orange-600 italic">Events</span></Link>
+                <Link to='/' className="border p-1 shadow-lg"><span className="md:text-3xl font-bold italic">Social</span><span className="md:text-3xl font-bold text-orange-600 italic">Events</span></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

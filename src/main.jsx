@@ -11,6 +11,7 @@ import Home from './assets/Components/Home/Home.jsx';
 import Service from './assets/Components/Service/Service.jsx';
 import Feature from './assets/Components/Feature/Feature.jsx';
 import About from './assets/Components/About/About.jsx';
+import AllCategories from './assets/Components/AllCategories/AllCategories.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
