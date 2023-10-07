@@ -3,8 +3,8 @@ import Navbar from "../Navbar/Navbar";
 
 const MainLayout = () => {
     return (
-        <div className="max-w-[1500px] mx-auto">
-            <Navbar className="sticky top-0"></Navbar>
+        <div className="max-w-[1470px] mx-auto">
+            <Navbar></Navbar>
             <Outlet></Outlet>
         </div>
     );

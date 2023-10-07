@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
 import {
   createBrowserRouter,
@@ -11,7 +10,7 @@ import Home from './assets/Components/Home/Home.jsx';
 import Service from './assets/Components/Service/Service.jsx';
 import Feature from './assets/Components/Feature/Feature.jsx';
 import About from './assets/Components/About/About.jsx';
-import AllCategories from './assets/Components/AllCategories/AllCategories.jsx';
+import CategoryDetails from './assets/Components/AllCategories/CategoryDetails';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -32,6 +31,11 @@ const router = createBrowserRouter([
       {
         path: '/about',
         element: <About></About>
+      },
+      {
+        path: '/category/:id',
+        element: <CategoryDetails></CategoryDetails>,
+        loader: () => fetch('../data.json')
       }
     ]
   },

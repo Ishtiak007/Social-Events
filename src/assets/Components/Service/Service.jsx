@@ -1,7 +1,9 @@
+import AllCategories from "../AllCategories/AllCategories";
+
 const Service = () => {
     return (
         <div>
-            <h1>serviceeeeeeeee</h1>
+            <AllCategories></AllCategories>
         </div>
     );
 };

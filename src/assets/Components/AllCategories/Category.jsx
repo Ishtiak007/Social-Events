@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 const Category = ({ category }) => {
-    const { title, title_image, description } = category
+    const { id, title, title_image, description } = category
     return (
         <div>
             <div className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
@@ -18,11 +19,11 @@ const Category = ({ category }) => {
                     <p className="mb-8 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
                         {description}
                     </p>
-                    <a className="inline-block" href="#">
-                        <button className='btn bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold'>
+                    <div className="inline-block" href="#">
+                        <Link to={`/category/${id}`}><button className='btn bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold'>
                             Explore More
-                        </button>
-                    </a>
+                        </button></Link>
+                    </div>
                 </div>
             </div>
         </div>

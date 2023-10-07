@@ -3,61 +3,73 @@
       "id": 1,
       "category": "Weddings",
       "title": "Exquisite Grand Weddings: Celebrating Love in Splendor",
-      "title_image": "https://i.ibb.co/pK6hrYP/antenna-ZDN-G1x-BWHY-unsplash.jpg",
-      "details": "Date: October 15, 2023\nLocation: Rosewood Gardens\nGuests: 150",
+      "title_two":"'Celebrating Love in Splendor'",
+      "title_image": "https://i.ibb.co/G2X93CS/shardayyy-photography-f-Jzm-Pe-a0e-U-unsplash.jpg",
+      "details": "Are you dreaming of a wedding that surpasses your wildest expectations? Look no further we specialize in turning dreams into reality. We're excited to introduce our wedding planning services to help you craft the perfect celebration of love.Our team is dedicated to creating unforgettable moments that reflect your unique style and vision. From selecting the ideal venue and crafting breathtaking decor to coordinating every detail, we're here to transform your ideas into a seamless and magical event.",
+      "details_two":"With years of experience, a keen eye for design, and a commitment to personalized service, we take the stress out of wedding planning, leaving you free to savor every moment of your special day. Trust us to bring your dream wedding to life, creating cherished memories that will last a lifetime.Contact us today to schedule a consultation and let's begin the journey towards your dream wedding. Together, we'll make your special day an unforgettable masterpiece!",
       "description": "Imagine exchanging vows in a lush, sun-kissed garden adorned with vibrant blooms, where love blooms like the flowers around you, creating timeless memories in a natural, enchanting setting.",
-      "banner_image": "elegant_garden_wedding_banner.jpg",
-      "five_images": ["wedding1.jpg", "wedding2.jpg", "wedding3.jpg", "wedding4.jpg", "wedding5.jpg"]
+      "banner_image": "https://i.ibb.co/G2X93CS/shardayyy-photography-f-Jzm-Pe-a0e-U-unsplash.jpg",
+      "five_images": ["https://i.ibb.co/XXb091k/andreas-ronningen-S2-Yss-Lw97l4-unsplash.jpg", "https://i.ibb.co/ctLnKsQ/vitor-monthay-JL2n-GWXCJo-unsplash.jpg", "https://i.ibb.co/HqvcgK0/getulio-moraes-jbtbin3u0-Xw-unsplash-1.jpg", "https://i.ibb.co/fQT9zcz/al-elmes-ULHx-Wq8reao-unsplash.jpg", "https://i.ibb.co/FXLsv4W/photos-by-lanty-O38-Id-cy-V4-M-unsplash.jpg","https://i.ibb.co/jkVhr2D/victoria-priessnitz-MMNg-Gs-FEbu-I-unsplash.jpg"]
     },
     {
       "id": 2,
       "category": "Birthday Parties",
       "title": "Joyful Celebrations: Memorable Birthday Parties for All",
-      "title_image": "https://i.ibb.co/pK6hrYP/antenna-ZDN-G1x-BWHY-unsplash.jpg",
-      "details": "Date: November 5, 2023\nLocation: The Loft Lounge\nGuests: 50",
+      "title_two":"'Memorable Birthday Parties for All'",
+      "title_image": "https://i.ibb.co/qytj8Gd/jon-tyson-CP68p1f-ZS8k-unsplash.jpg",
+      "details": "Are you seeking to host a birthday bash that leaves a lasting impression? Look no further our dedicated team specializes in crafting unforgettable birthday parties that capture your unique style and vision. From themed decorations to delicious cakes and entertainment, we transform your ideas into a seamless and memorable event.",
+      "details_two":"With our experience and creativity, we take the stress out of party planning, allowing you to relish every moment of the celebration. Whether it's a milestone birthday or an intimate gathering, we tailor our services to your needs, ensuring a joyful and stress-free experience.Contact us today to discuss your dream birthday party, and let's make your special day a truly exceptional one!",
       "description": "Celebrate life's milestones with unforgettable birthday parties. From themed decorations to mouthwatering cakes, our events are a joyful blend of laughter, surprises, and cherished moments for all ages.",
-      "banner_image": "birthday_party_banner.jpg",
-      "five_images": ["birthday1.jpg", "birthday2.jpg", "birthday3.jpg", "birthday4.jpg", "birthday5.jpg"]
+      "banner_image": "https://i.ibb.co/qytj8Gd/jon-tyson-CP68p1f-ZS8k-unsplash.jpg",
+      "five_images": ["https://i.ibb.co/2ZZZqMG/bruce-tang-PH9ucxgjb-Y-unsplash.jpg", "https://i.ibb.co/CtbPcgn/joseph-menjivar-a-THv2s8-PRyo-unsplash.jpg", "https://i.ibb.co/251hn34/toa-heftiba-XAJBSXb-Iv-WQ-unsplash.jpg", "https://i.ibb.co/GFz8hsD/morgan-lane-18-N4okm-Wcc-M-unsplash.jpg", "https://i.ibb.co/Br3MZfP/nipyata-Iil-Ok-C78k-Eo-unsplash.jpg","https://i.ibb.co/JstzfQQ/lidya-nada-t-Xz6g8-JYYo-I-unsplash.jpg"]
     },
     {
       "id": 3,
       "category": "Anniversaries",
       "title": "Timeless Love: Anniversary Celebrations to Remember Always.",
-      "title_image": "https://i.ibb.co/pK6hrYP/antenna-ZDN-G1x-BWHY-unsplash.jpg",
-      "details": "Date: December 12, 2023\nLocation: The Grand Hall\nGuests: 100",
+      "title_two":"'Anniversary Celebrations to Remember Always'",
+      "title_image": "https://i.ibb.co/C6vKYrP/guanfranco-g-82p7-Jgz-KOpo-unsplash.jpg",
+      "details": "Are you searching for a way to honor your enduring love with a remarkable anniversary party? Look no further we specialize in creating unforgettable anniversary celebrations that reflect your unique journey together.Our dedicated team is committed to turning your love story into a beautiful event. ",
+      "details_two":"From selecting the perfect venue to crafting meaningful decor, we handle every detail to ensure your celebration is a heartfelt and memorable experience.With years of experience and a passion for love stories, we alleviate the stress of planning, allowing you to cherish each moment. Contact us today to discuss your vision, and let us help you create an anniversary party that celebrates your love in style.",
       "description": "Cherish your love story with enchanting anniversary parties. From intimate dinners to grand gatherings, we create magical moments that celebrate enduring love, commitment, and the journey of togetherness.",
-      "banner_image": "anniversary_banner.jpg",
-      "five_images": ["anniversary1.jpg", "anniversary2.jpg", "anniversary3.jpg", "anniversary4.jpg", "anniversary5.jpg"]
+      "banner_image": "https://i.ibb.co/C6vKYrP/guanfranco-g-82p7-Jgz-KOpo-unsplash.jpg",
+      "five_images": ["https://i.ibb.co/pPWgmPP/nathalia-segato-QIAt-KF3p-Wq-M-unsplash.jpg", "https://i.ibb.co/34fFBdz/richmond-osei-g-QHqe52-MP8w-unsplash.jpg", "https://i.ibb.co/j6YP7rG/samantha-gades-2-Tdhw-S6-Y3p-U-unsplash.jpg", "https://i.ibb.co/G7NM7Kw/josh-hild-41rwx-u0a-Ag-unsplash.jpg", "https://i.ibb.co/q5jvh89/louis-hansel-SLug-LUIXbp4-unsplash.jpg","https://i.ibb.co/k2KT8cY/zuza-galczynska-c5-e-Qi4rrj-A-unsplash.jpg"]
     },
     {
       "id": 4,
       "category": "Engagement Parties",
       "title": "Forever Together: Celebrating New Beginnings in Style.",
-      "title_image": "https://i.ibb.co/pK6hrYP/antenna-ZDN-G1x-BWHY-unsplash.jpg",
-      "details": "Date: January 8, 2024\nLocation: Lakeside Manor\nGuests: 75",
+      "title_two":"'Celebrating New Beginnings in Style'",
+      "title_image": "https://i.ibb.co/26mYVdD/andre-jackson-IXLS59-CTg-DE-unsplash.jpg",
+      "details": "Are you planning to announce your commitment with an unforgettable engagement party? Look no further our dedicated team specializes in curating memorable engagement celebrations that capture your unique love story.From selecting the perfect venue to designing personalized decor and entertainment, we transform your vision into a seamless and heartfelt event. ",
+      "details_two":"With our experience and creativity, we take the stress out of planning, allowing you to relish every moment of your special day.Let us help you create a stunning engagement party that not only marks the beginning of your journey but also leaves a lasting impression on your loved ones. Contact us today to discuss your vision and turn your engagement party dreams into a beautiful reality.",
       "description": "Mark the beginning of forever with joyous engagement parties. Our events are filled with love, laughter, and excitement, as you embark on this beautiful journey towards lifelong commitment.",
-      "banner_image": "engagement_party_banner.jpg",
-      "five_images": ["engagement1.jpg", "engagement2.jpg", "engagement3.jpg", "engagement4.jpg", "engagement5.jpg"]
+      "banner_image": "https://i.ibb.co/26mYVdD/andre-jackson-IXLS59-CTg-DE-unsplash.jpg",
+      "five_images": ["https://i.ibb.co/26mYVdD/andre-jackson-IXLS59-CTg-DE-unsplash.jpg","https://i.ibb.co/HYnG5Vz/frederick-medina-L2-NHfw-RKu8-E-unsplash.jpg", "https://i.ibb.co/1ssmNKx/marc-babin-a-QWm-CH-b3-MU-unsplash.jpg", "https://i.ibb.co/Qj7CjRc/jeremy-wong-weddings-K8-Ki-CHh4-WU4-unsplash.jpg", "https://i.ibb.co/0h3GWjR/ibrahim-boran-ao-GA9-N8-QNr-I-unsplash.jpg", "https://i.ibb.co/wNrhJGf/matheus-frade-u2-Zh-OJh-J3z-E-unsplash.jpg","https://i.ibb.co/PzCzSYk/korie-cull-ggtdb-P92hf8-unsplash.jpg"]
     },
     {
       "id": 5,
       "category": "Retirement Parties",
       "title": "Retirement Revelry: Honoring a Lifetime of Achievements.",
+      "title_two":"'Honoring a Lifetime of Achievements'",
       "title_image": "https://i.ibb.co/pK6hrYP/antenna-ZDN-G1x-BWHY-unsplash.jpg",
-      "details": "Date: February 20, 2024\nLocation: The Retirement Clubhouse\nGuests: 40",
+      "details": "Are you looking to honor a cherished colleague or loved one with a retirement party that truly reflects their years of hard work and dedication? Look no further our experienced team specializes in creating heartfelt retirement parties that pay tribute to a lifetime of achievements.",
+      "details_two":"From selecting the ideal venue to crafting personalized decor and memorable speeches, we transform your ideas into a seamless and meaningful event. Let us take the stress out of planning, ensuring a retirement party that leaves a lasting impact.Contact us today to discuss your vision, and let's create a retirement party that celebrates a well-deserved journey into the next chapter of life!",
       "description": "Toast to a lifetime of hard work and new adventures at our retirement parties. We honor your achievements with heartfelt gatherings, laughter, and well-wishes for the next chapter of life.",
-      "banner_image": "retirement_party_banner.jpg",
-      "five_images": ["retirement1.jpg", "retirement2.jpg", "retirement3.jpg", "retirement4.jpg", "retirement5.jpg"]
+      "banner_image": "https://i.ibb.co/pK6hrYP/antenna-ZDN-G1x-BWHY-unsplash.jpg",
+      "five_images": ["https://i.ibb.co/cc8wsYF/rminedaisy-q-S6h-UX-XSVQ-unsplash.jpg", "https://i.ibb.co/Scvrxrq/tengku-nadia-fz8-SONk-BB8-unsplash.jpg", "https://i.ibb.co/945pCyc/kajetan-sumila-Q87x-Cddqvl-A-unsplash.jpg", "https://i.ibb.co/P1DMVKb/pablo-lancaster-jones-e-Im1b-SLSBSk-unsplash.jpg", "https://i.ibb.co/0X0vyrv/annie-spratt-t-Kp-A64-Qrcc-M-unsplash.jpg","https://i.ibb.co/JkVCgPC/pablo-lancaster-jones-OOUIk2vqxgk-unsplash.jpg"]
     },
     {
       "id": 6,
       "category": "Baby Shower",
       "title": "Bundles of Joy: Baby Shower Celebrations Abound.",
-      "title_image": "https://i.ibb.co/pK6hrYP/antenna-ZDN-G1x-BWHY-unsplash.jpg",
-      "details": "Date: March 15, 2024\nLocation: The Baby Oasis\nGuests: 60",
+      "title_two":"'Baby Shower Celebrations Abound'",
+      "title_image": "https://i.ibb.co/zNbDKVC/jonathan-borba-Cg-WTq-Yx-HEkg-unsplash.jpg",
+      "details": "Are you expecting a little bundle of joy and want to celebrate this momentous occasion with a memorable baby shower? Look no further – our dedicated team specializes in crafting heartfelt baby shower parties that reflect your unique style and excitement.From selecting the perfect venue to designing adorable decor and planning fun games. ",
+      "details_two":"we transform your ideas into a seamless and joyous event. With our experience and creativity, we ensure a stress-free and unforgettable celebration that leaves you with cherished memories.Contact us today to discuss your vision, and let's create a baby shower that honors this precious new beginning in your life!",
       "description": "Join us in celebrating the upcoming arrival of a new baby! Our baby shower parties are filled with love, laughter, and anticipation as we cherish this special moment with the parents-to-be",
-      "banner_image": "baby_shower_banner.jpg",
-      "five_images": ["baby1.jpg", "baby2.jpg", "baby3.jpg", "baby4.jpg", "baby5.jpg"]
+      "banner_image": "https://i.ibb.co/zNbDKVC/jonathan-borba-Cg-WTq-Yx-HEkg-unsplash.jpg",
+      "five_images": ["https://i.ibb.co/R7ZXd9p/tatiana-moreeva-C-wu-Ul6j-GEU-unsplash.jpg","https://i.ibb.co/kQdYYz0/paul-binas-Hi-YWw-O2-U-0-unsplash.jpg","https://i.ibb.co/X7PWKCV/katie-smith-o-Gpq2f-Z4q-TI-unsplash.jpg", "https://i.ibb.co/9w34xBd/domino-r-L1u334-Qq-Tw-unsplash.jpg", "https://i.ibb.co/r3N100s/nathan-dumlao-H4h-Xvced-Bt-M-unsplash.jpg","https://i.ibb.co/qJSL2Z7/sven-brandsma-9fj62-R6-Kh3o-unsplash.jpg"]
     }
   ]
   
