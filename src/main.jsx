@@ -31,10 +31,6 @@ const router = createBrowserRouter([
         element: <Service></Service>
       },
       {
-        path: '/feature',
-        element: <Feature></Feature>
-      },
-      {
         path: '/about',
         element: <About></About>
       },
@@ -50,6 +46,10 @@ const router = createBrowserRouter([
         path: '/category/:id',
         element: <PrivateRoute><CategoryDetails></CategoryDetails></PrivateRoute>,
         loader: () => fetch('../data.json')
+      },
+      {
+        path: '/feature',
+        element: <PrivateRoute><Feature></Feature></PrivateRoute>
       }
     ]
   },

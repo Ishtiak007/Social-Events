@@ -19,10 +19,10 @@ const Navbar = () => {
         } to='/service'>Service</NavLink></li>
         <li><NavLink className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? " font-semibold text-[18px] underline" : "text-white font-semibold text-[18px]"
-        } to='/feature'>Feature</NavLink></li>
+        } to='/about'>About</NavLink></li>
         <li><NavLink className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? " font-semibold text-[18px] underline" : "text-white font-semibold text-[18px]"
-        } to='/about'>About</NavLink></li>
+        } to='/feature'>Feature</NavLink></li>
         <li><NavLink className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? " font-semibold text-[18px] underline" : "text-white font-semibold text-[18px]"
         } to='/login'>Login</NavLink></li>
