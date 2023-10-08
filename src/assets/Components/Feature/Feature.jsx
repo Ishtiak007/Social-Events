@@ -1,7 +1,9 @@
+import GalleryAndWork from "../GalleryAndWork/GalleryAndWork";
+
 const Feature = () => {
     return (
         <div>
-            <h1>featureeeeeeeeeee</h1>
+            <GalleryAndWork></GalleryAndWork>
         </div>
     );
 };

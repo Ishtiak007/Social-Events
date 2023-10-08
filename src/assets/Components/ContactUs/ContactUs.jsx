@@ -45,6 +45,7 @@ const ContactUs = () => {
                 <div className="flex-1 my-7">
                     <Register></Register>
                 </div>
+
             </div>
         </div>
     );
