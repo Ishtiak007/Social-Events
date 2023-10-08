@@ -16,7 +16,8 @@ import 'swiper/css/scrollbar';
 
 const Testimonial = () => {
     return (
-        <div>
+        <div data-aos="fade-up"
+            data-aos-duration="3000">
             <div className="relative overflow-hidden rounded-b-md bg-no-repeat text-center bg-[url('https://i.ibb.co/VM2tR9D/adi-goldstein-Hli3-R6-LKibo-unsplash.jpg')] h-[450px] lg:h-[500px] bg-cover">
                 <div className="absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed bg-[#3a3a3aaa]">
 

@@ -5,14 +5,14 @@ const Category = ({ category }) => {
     return (
         <div>
             <div className="relative flex w-full max-w-[48rem] lg:flex-row md:flex-row flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-                <div className="relative m-0 lg:w-2/5 md:w-2/5 shrink-0 overflow-hidden rounded-xl lg:rounded-r-none md:rounded-r-none bg-white bg-clip-border text-gray-700">
+                <div className="relative m-0 lg:w-2/5 md:w-2/5 shrink-0 overflow-hidden rounded-xl lg:rounded-r-none md:rounded-r-none bg-white bg-clip-border text-gray-700" data-aos="zoom-out-right">
                     <img
                         src={title_image}
                         alt="image"
                         className="h-full w-full object-cover"
                     />
                 </div>
-                <div className="p-5">
+                <div className="p-5" data-aos="zoom-out-left">
                     <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                         {title}
                     </h4>

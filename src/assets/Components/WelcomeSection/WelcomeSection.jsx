@@ -2,16 +2,21 @@ const WelcomeSection = () => {
     return (
         <div className="p-4 my-10">
             <div className="lg:flex">
-                <div className="flex-1 flex justify-center items-center text-center p-2">
-                    <div>
-                        <h1 className="md:text-5xl font-medium"><span className="text-orange-400">Hello!</span> We Are an Event Planning Agency</h1>
+                <div className="flex-1 flex justify-center items-center text-center p-2" data-aos="fade-up"
+                    data-aos-duration="3000">
+                    <div data-aos="fade-up">
+                        <h1 className="md:text-5xl font-medium"><span className="text-orange-400" data-aos="fade-up"
+                            data-aos-duration="3000">Hello!</span> We Are an Event Planning Agency</h1>
                         <p className="my-3">As the premier event planning company in the area, we know that it’s not “one size fits all”. Each event and client is unique and we believe our services should be as well. We know that it should be “Can I hire a planner?” not “Can I afford one?”.......Come on,lets celebrate together</p>
                         <h2 className="italic text-3xl my-9">We take care of preparation, you enjoy the celebration! <span className="text-lg font-bold text-[#D7A477]">HELLO & WELCOME . . .</span></h2>
                     </div>
 
                 </div>
 
-                <div className="flex-1 flex justify-center items-center">
+                <div className="flex-1 flex justify-center items-center"
+                    data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                     <div>
                         <div className="w-full">
                             <div className="relative lg:w-[270px] w-[200px] ">

@@ -13,7 +13,8 @@ const Banner = () => {
                                 className="absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed bg-[#3a3a3aaa]">
                                 <div className="flex h-full items-center justify-center">
                                     <div>
-                                        <div>
+                                        <div data-aos="fade-up"
+                                            data-aos-duration="3000">
                                             <h1 className="text-white lg:text-5xl text-[18px] my-[30px] font-semibold font-serif">The living moment is everything</h1>
                                             <Link to='/service' className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Lets Celebrate</Link>
                                         </div>
@@ -29,7 +30,8 @@ const Banner = () => {
                                 className="absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed bg-[#3a3a3aaa]">
                                 <div className="flex h-full items-center justify-center">
                                     <div>
-                                        <div>
+                                        <div data-aos="fade-up"
+                                            data-aos-duration="3000">
                                             <h1 className="text-white lg:text-5xl text-[18px]  my-[30px] font-semibold font-serif">The living moment is everything</h1>
                                             <Link to='/service' className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Lets Celebrate</Link>
                                         </div>
@@ -45,7 +47,8 @@ const Banner = () => {
                                 className="absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed bg-[#3a3a3aaa]">
                                 <div className="flex h-full items-center justify-center">
                                     <div>
-                                        <div>
+                                        <div data-aos="fade-up"
+                                            data-aos-duration="3000">
                                             <h1 className="text-white lg:text-5xl text-[18px]  my-[30px] font-semibold font-serif">The living moment is everything</h1>
                                             <Link to='/service' className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Lets Celebrate</Link>
                                         </div>
@@ -60,7 +63,8 @@ const Banner = () => {
                             <div
                                 className="absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed bg-[#3a3a3aaa]">
                                 <div className="flex h-full items-center justify-center">
-                                    <div>
+                                    <div data-aos="fade-up"
+                                        data-aos-duration="3000">
                                         <div>
                                             <h1 className="text-white lg:text-5xl text-[18px]  my-[30px] font-semibold font-serif">The living moment is everything</h1>
                                             <Link to='/service' className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Les Celebrate</Link>
@@ -76,7 +80,8 @@ const Banner = () => {
                             <div
                                 className="absolute bottom-0 left-0 right-0 top-0  overflow-hidden bg-fixed bg-[#3a3a3aaa]">
                                 <div className="flex h-full items-center justify-center">
-                                    <div>
+                                    <div data-aos="fade-up"
+                                        data-aos-duration="3000">
                                         <div>
                                             <h1 className="text-white lg:text-5xl text-[18px] my-[30px] font-semibold font-serif">The living moment is everything</h1>
                                             <Link to='/service' className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Lets Celebrate</Link>
