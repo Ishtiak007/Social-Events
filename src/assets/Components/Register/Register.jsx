@@ -1,40 +1,48 @@
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../Provider/AuthProvider';
 import toast from 'react-hot-toast';
-
-
-
+import { FaRegEye, FaRegEyeSlash, } from "react-icons/fa6";
 
 const Register = () => {
-    const { createUser } = useContext(AuthContext)
-
+    const { createUser } = useContext(AuthContext);
+    const [showPassword, setShowPassword] = useState(false)
 
     const handleRegister = e => {
         e.preventDefault();
         const email = e.target.email.value;
         const password = e.target.password.value;
 
-        console.log(email, password);
+        const minNumberofChars = 6;
+        const maxNumberofChars = 16;
+        const regularExpression = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{6,}$/;
+        if (password.length < minNumberofChars || password.length > maxNumberofChars) {
+            toast.error("password should contain atleast 6 character ");
+            return;
+        }
+        if (!regularExpression.test(password)) {
+            toast.error("password should contain atleast one number,one capital letter, one small letter and one special character");
+            return;
+        }
 
         createUser(email, password)
-            .then(() => {
-                toast.success('Heyyyy User! Your Registration process Successfully done!')
+            .then((result) => {
+                toast.success('Congratulation!!! Your Registration process Successfully done!')
+                console.log(result.user)
             })
-            .catch(() => {
-                toast.error("Heyyy User!! Something wrong. Please Try again")
+            .catch((error) => {
+                toast.error(error.message)
             })
     }
     return (
         <div>
             <div className="h-[100vh] flex justify-center items-center">
-                <div className="hero min-h-screen bg-base-200">
+                <div className="hero min-h-screen">
                     <div className="hero-content flex-col">
                         <div className="text-center lg:text-left">
                             <h1 className="text-4xl font-bold text-center font-mono">Get the Party Started!</h1>
-
                         </div>
-                        <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                        <div className="card flex-shrink-0 w-full max-w-xl shadow-2xl bg-base-100">
 
                             <form onSubmit={handleRegister} className="card-body">
                                 <div>
@@ -52,11 +60,16 @@ const Register = () => {
                                     </label>
                                     <input type="email" name="email" placeholder="Enter Your Email" className="input input-bordered" required />
                                 </div>
-                                <div className="form-control">
+                                <div className="form-control relative">
                                     <label className="label">
                                         <span className="label-text font-mono text-lg">Password</span>
                                     </label>
-                                    <input type="password" name="password" placeholder="Enter Password" className="input input-bordered" required />
+                                    <input type={showPassword ? "text" : "password"} name="password" placeholder="Enter Password" className="input input-bordered" required />
+                                    <span className='cursor-pointer text-xl absolute bottom-3 right-5' onClick={() => setShowPassword(!showPassword)}>
+                                        {
+                                            showPassword ? <FaRegEyeSlash></FaRegEyeSlash> : <FaRegEye></FaRegEye>
+                                        }
+                                    </span>
                                 </div>
                                 <div className="form-control mt-6">
                                     <button className="btn bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-mono font-semibold">Login</button>
@@ -70,6 +83,8 @@ const Register = () => {
                 </div>
             </div>
         </div>
+
+
     );
 };
 

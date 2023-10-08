@@ -14,6 +14,7 @@ import CategoryDetails from './assets/Components/AllCategories/CategoryDetails';
 import Login from './assets/Components/Login/Login';
 import Register from './assets/Components/Register/Register';
 import AuthProvider from './assets/Provider/AuthProvider';
+import PrivateRoute from './assets/Components/PrivateRoute/PrivateRoute';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -45,7 +46,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/category/:id',
-        element: <CategoryDetails></CategoryDetails>,
+        element: <PrivateRoute><CategoryDetails></CategoryDetails></PrivateRoute>,
         loader: () => fetch('../data.json')
       }
     ]
