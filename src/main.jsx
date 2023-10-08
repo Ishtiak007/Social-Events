@@ -16,6 +16,7 @@ import Register from './assets/Components/Register/Register';
 import AuthProvider from './assets/Provider/AuthProvider';
 import PrivateRoute from './assets/Components/PrivateRoute/PrivateRoute';
 import ErrorPage from './assets/Components/ErrorPage/ErrorPage';
+import ContactUs from './assets/Components/ContactUs/ContactUs';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
       {
         path: '/feature',
         element: <PrivateRoute><Feature></Feature></PrivateRoute>
+      },
+      {
+        path: '/contact',
+        element: <PrivateRoute><ContactUs></ContactUs></PrivateRoute>
       }
     ]
   },

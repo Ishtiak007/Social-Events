@@ -34,7 +34,8 @@ const Register = () => {
         createUser(email, password)
             .then((result) => {
                 toast.success('Congratulation!!! Your Registration process Successfully done!')
-                console.log(result.user)
+                console.log(result.user);
+                e.target.reset();
             })
             .catch((error) => {
                 toast.error(error.message)

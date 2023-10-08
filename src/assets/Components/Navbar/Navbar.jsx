@@ -2,12 +2,10 @@ import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 import toast from "react-hot-toast";
-import Marquee from "react-fast-marquee";
 import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext);
-    console.log(user)
 
 
     const navLinks = <>
@@ -20,15 +18,24 @@ const Navbar = () => {
         <li><NavLink className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? " font-semibold text-[18px] underline" : "text-white font-semibold text-[18px]"
         } to='/about'>About</NavLink></li>
-        <li><NavLink className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? " font-semibold text-[18px] underline" : "text-white font-semibold text-[18px]"
-        } to='/feature'>Feature</NavLink></li>
+
         <li><NavLink className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? " font-semibold text-[18px] underline" : "text-white font-semibold text-[18px]"
         } to='/login'>Login</NavLink></li>
         <li><NavLink className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "  text-[18px] underline" : "text-white font-semibold text-[18px]"
         } to='/register'>Register</NavLink></li>
+        {user && <>
+            <li><NavLink className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? " font-semibold text-[18px] underline" : "text-white font-semibold text-[18px]"
+            } to='/feature'>Feature</NavLink></li>
+
+
+            <li><NavLink className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? " font-semibold text-[18px] underline" : "text-white font-semibold text-[18px]"
+            } to='/contact'>Contact</NavLink></li>
+
+        </>}
     </>
 
     const handleLogOut = () => {
@@ -55,6 +62,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <Link to='/' className="border shadow-lg"><span className="md:text-3xl font-bold italic text-white">Social</span><span className="md:text-3xl font-bold text-red-700 italic">Events</span></Link>
+
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -63,10 +71,14 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
                 {
-                    user && <span className="text-yellow-200 text-xl font-medium font-serif"><Marquee>{user.email}</Marquee></span>
+                    user && <div><img className="mr-3 border-[3px] border-white w-[40px] rounded-full" src={user.photoURL} alt="" /></div>
                 }
                 {
-                    user ? <button onClick={handleLogOut} className="btn btn-sm bg-[#403F3F] text-white hover:bg-slate-600">LogOut</button>
+                    user ? <div>
+                        <span className="text-white font-semibold  mr-3">User: {user.displayName}</span>
+                        <button onClick={handleLogOut} className="btn btn-sm bg-[#403F3F] text-white hover:bg-slate-600">LogOut</button>
+                    </div>
+
                         : <Link to='/login'><button className="btn btn-sm bg-[#403F3F] text-white hover:bg-slate-600">Login</button></Link>
                 }
             </div>

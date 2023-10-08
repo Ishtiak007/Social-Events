@@ -22,7 +22,7 @@ const Login = () => {
             .then((result) => {
                 toast.success('Your Login process Successfully done!');
                 console.log(result.user);
-
+                e.target.reset();
                 navigate(location?.state ? location.state : '/');
             })
             .catch((error) => {

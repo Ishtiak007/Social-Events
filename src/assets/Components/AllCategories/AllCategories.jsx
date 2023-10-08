@@ -9,7 +9,6 @@ const AllCategories = () => {
             .then((res) => res.json())
             .then((data) => setCategories(data))
     }, [])
-    console.log(categories)
     return (
         <div>
             <h1 className="text-center text-3xl font-semibold my-12">Our Services</h1>
