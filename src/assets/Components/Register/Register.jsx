@@ -12,6 +12,7 @@ const Register = () => {
         e.preventDefault();
         const email = e.target.email.value;
         const password = e.target.password.value;
+        const terms = e.target.terms.checked;
 
         const minNumberofChars = 6;
         const maxNumberofChars = 16;
@@ -20,8 +21,13 @@ const Register = () => {
             toast.error("password should contain atleast 6 character ");
             return;
         }
-        if (!regularExpression.test(password)) {
+        else if (!regularExpression.test(password)) {
             toast.error("password should contain atleast one number,one capital letter, one small letter and one special character");
+            return;
+        }
+
+        else if (!terms) {
+            toast.error("Please Accept our terms and conditions");
             return;
         }
 
@@ -70,6 +76,10 @@ const Register = () => {
                                             showPassword ? <FaRegEyeSlash></FaRegEyeSlash> : <FaRegEye></FaRegEye>
                                         }
                                     </span>
+                                </div>
+                                <div className='py-3'>
+                                    <input type="checkbox" name="terms" id="terms" />
+                                    <label className='ml-2' htmlFor="terms">Accept our terms and conditions</label>
                                 </div>
                                 <div className="form-control mt-6">
                                     <button className="btn bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-mono font-semibold">Login</button>

@@ -1,4 +1,5 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import ImgGallery from "../ImgGallery/ImgGallery";
 
 const CategoryDetails = () => {
     const allData = useLoaderData();

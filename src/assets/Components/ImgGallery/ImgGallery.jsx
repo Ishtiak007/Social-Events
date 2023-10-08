@@ -32,5 +32,4 @@ const ImgGallery = () => {
         </div>
     );
 };
-
 export default ImgGallery;

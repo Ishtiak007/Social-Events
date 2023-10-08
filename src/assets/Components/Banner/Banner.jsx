@@ -1,5 +1,6 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import { Link } from "react-router-dom";
 const Banner = () => {
     return (
         <div>
@@ -14,7 +15,7 @@ const Banner = () => {
                                     <div>
                                         <div>
                                             <h1 className="text-white lg:text-5xl text-[18px] my-[30px] font-semibold font-serif">The living moment is everything</h1>
-                                            <button className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Let's Celebrate</button>
+                                            <Link to='/service' className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Let's Celebrate</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -30,7 +31,7 @@ const Banner = () => {
                                     <div>
                                         <div>
                                             <h1 className="text-white lg:text-5xl text-[18px]  my-[30px] font-semibold font-serif">The living moment is everything</h1>
-                                            <button className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Let's Celebrate</button>
+                                            <Link to='/service' className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Let's Celebrate</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -46,7 +47,7 @@ const Banner = () => {
                                     <div>
                                         <div>
                                             <h1 className="text-white lg:text-5xl text-[18px]  my-[30px] font-semibold font-serif">The living moment is everything</h1>
-                                            <button className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Lets Celebrate</button>
+                                            <Link to='/service' className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Lets Celebrate</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -62,7 +63,7 @@ const Banner = () => {
                                     <div>
                                         <div>
                                             <h1 className="text-white lg:text-5xl text-[18px]  my-[30px] font-semibold font-serif">The living moment is everything</h1>
-                                            <button className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Let's Celebrate</button>
+                                            <Link to='/service' className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Let's Celebrate</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -78,7 +79,7 @@ const Banner = () => {
                                     <div>
                                         <div>
                                             <h1 className="text-white lg:text-5xl text-[18px] my-[30px] font-semibold font-serif">The living moment is everything</h1>
-                                            <button className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Let's Celebrate</button>
+                                            <Link to='/service' className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Let's Celebrate</Link>
                                         </div>
                                     </div>
                                 </div>

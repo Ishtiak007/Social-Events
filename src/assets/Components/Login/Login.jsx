@@ -6,7 +6,7 @@ import { FaGithub, FaGoogle } from "react-icons/fa";
 import { FaRegEye, FaRegEyeSlash, } from "react-icons/fa6";
 
 const Login = () => {
-    const { signInUser, googleLogIn } = useContext(AuthContext);
+    const { signInUser, googleLogIn, gitHubLogin } = useContext(AuthContext);
     const [showPassword, setShowPassword] = useState(false)
     const location = useLocation();
     const navigate = useNavigate()
@@ -36,6 +36,20 @@ const Login = () => {
             .then((res) => {
                 toast.success('Google Log In successfully!');
                 console.log(res.user);
+                navigate(location?.state ? location.state : '/');
+            })
+            .catch((error) => {
+                toast.error("Invalid login credentials")
+                console.log(error)
+            })
+    }
+
+    const handleGithubLogIn = () => {
+        gitHubLogin()
+            .then((res) => {
+                toast.success('GitHub Log In successfully!');
+                console.log(res.user);
+                navigate(location?.state ? location.state : '/');
             })
             .catch((error) => {
                 toast.error("Invalid login credentials")
@@ -85,7 +99,7 @@ const Login = () => {
                                         <FaGoogle className="text-lg"></FaGoogle>
                                         Login with Google
                                     </button>
-                                    <button className="btn w-full hover:text-blue-600">
+                                    <button onClick={handleGithubLogIn} className="btn w-full hover:text-blue-600">
                                         <FaGithub className="text-lg"></FaGithub>
                                         Login with Github
                                     </button>
