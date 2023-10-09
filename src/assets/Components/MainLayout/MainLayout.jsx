@@ -8,11 +8,11 @@ const MainLayout = () => {
         <div className="max-w-[1470px] mx-auto">
             <Navbar></Navbar>
             <Outlet></Outlet>
-            <Footer></Footer>
             <Toaster
                 position="top-right"
                 reverseOrder={false}
             />
+            <Footer></Footer>
         </div>
     );
 };

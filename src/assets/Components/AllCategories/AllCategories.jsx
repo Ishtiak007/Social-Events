@@ -7,12 +7,12 @@ const AllCategories = () => {
     useEffect(() => {
         fetch('data.json')
             .then((res) => res.json())
-            .then((data) => setCategories(data))
+            .then((data) => setCategories(data));
     }, [])
     return (
         <div>
             <h1 className="text-center text-3xl font-semibold my-12">Our Services</h1>
-            <div className="grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 gap-5 p-5">
+            <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 justify-center gap-5 p-2">
                 {
                     categories.map(category => <Category key={category.id} category={category}></Category>)
                 }

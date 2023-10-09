@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 const Category = ({ category }) => {
     const { id, title, title_image, description } = category
     return (
-        <div>
-            <div className="relative flex w-full max-w-[48rem] lg:flex-row md:flex-row flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+        <div className='overflow-x-clip'>
+            <div className="relative flex md:max-w-[48rem] lg:flex-row md:flex-row flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
                 <div className="relative m-0 lg:w-2/5 md:w-2/5 shrink-0 overflow-hidden rounded-xl lg:rounded-r-none md:rounded-r-none bg-white bg-clip-border text-gray-700" data-aos="zoom-out-right">
                     <img
                         src={title_image}
@@ -26,7 +26,25 @@ const Category = ({ category }) => {
                     </div>
                 </div>
             </div>
+
+
+            {/* 
+            <div className="card w-80 bg-base-100 shadow-xl" data-aos="zoom-out-right">
+                <figure className="px-10 pt-10">
+                    <img src={title_image} alt="Shoes" className="rounded-xl" />
+                </figure>
+                <div className="card-body items-center text-center" data-aos="zoom-out-left">
+                    <h2 className="card-title">{title}</h2>
+                    <p>{description}</p>
+                    <div className="inline-block" href="#">
+                        <Link to={`/category/${id}`}><button className='btn bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold'>
+                            Explore More
+                        </button></Link>
+                    </div>
+                </div>
+            </div> */}
         </div>
+
     );
 };
 Category.propTypes = {

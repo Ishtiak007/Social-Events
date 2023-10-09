@@ -28,9 +28,9 @@ const CategoryDetails = () => {
                         </div>
                     </div>
                     <div className="flex-1 flex justify-center items-center">
-                        <div className="relative w-[270px]">
-                            <img className="w-[150px] h-[170px] absolute top-5 -right-12 rounded-lg shadow-2xl shadow-gray-900" src={five_images[0]} alt="" />
-                            <img className="w-[130px] h-[160px] absolute top-10 -left-10 rounded-lg shadow-2xl shadow-gray-900" src={five_images[1]} alt="" />
+                        <div className="relative w-[200px]">
+                            <img className="w-[130px] h-[150px] absolute top-5 -right-12 rounded-lg shadow-2xl shadow-gray-900" src={five_images[0]} alt="" />
+                            <img className="w-[130px] h-[140px] absolute top-10 -left-10 rounded-lg shadow-2xl shadow-gray-900" src={five_images[1]} alt="" />
                             <img className="rounded-lg shadow-lg" src={five_images[2]} alt="" />
                         </div>
                     </div>
@@ -44,10 +44,10 @@ const CategoryDetails = () => {
                         </div>
                     </div>
                     <div className="flex-1 flex justify-center items-center">
-                        <div className="relative w-[270px]">
+                        <div className="relative w-[200px]">
                             <img className="rounded-lg shadow-lg" src={five_images[5]} alt="" />
-                            <img className="w-[130px] h-[160px] absolute -bottom-10 -right-12 rounded-lg shadow-2xl shadow-gray-900" src={five_images[1]} alt="" />
-                            <img className="w-[150px] h-[150px] absolute -bottom-10 -left-10 rounded-lg shadow-2xl shadow-gray-900" src={five_images[4]} alt="" />
+                            <img className="w-[130px] h-[130px] absolute -bottom-10 -right-12 rounded-lg shadow-2xl shadow-gray-900" src={five_images[1]} alt="" />
+                            <img className="w-[140px] h-[130px] absolute -bottom-10 -left-10 rounded-lg shadow-2xl shadow-gray-900" src={five_images[4]} alt="" />
                         </div>
                     </div>
                 </div>

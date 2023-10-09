@@ -43,9 +43,8 @@ const Navbar = () => {
             .then(() => {
                 toast.success('Log Out successfully!');
             })
-            .catch((error) => {
+            .catch(() => {
                 toast.error("Something wrong. Please Try again")
-                console.log(error)
             })
 
     }
@@ -75,7 +74,7 @@ const Navbar = () => {
                 }
                 {
                     user ? <div>
-                        <span className="text-white font-semibold  mr-3">User: {user.displayName}</span>
+                        <span className="text-white font-semibold  mr-3">{user.displayName}</span>
                         <button onClick={handleLogOut} className="btn btn-sm bg-[#403F3F] text-white hover:bg-slate-600">LogOut</button>
                     </div>
 
