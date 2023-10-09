@@ -9,7 +9,7 @@ const FeatureIntroduce = () => {
                     data-aos-duration="3000">
                     <h1 className="lg:text-5xl text-3xl font-serif text-left mb-8">No-fuss event management to<br></br> celebrate the big day</h1>
                 </div>
-                <div className="md:flex justify-between mt-10 p-5" >
+                <div className="grid lg:grid-cols-4 grid-cols-2 justify-between mt-10 p-5" >
                     <div data-aos="fade-up-left">
                         <FaBirthdayCake className="text-6xl text-orange-400"></FaBirthdayCake>
                         <h1 className="font-sans text-xl font-semibold text-gray-500 my-3">PERFECT VENUE</h1>
