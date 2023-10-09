@@ -26,23 +26,6 @@ const Category = ({ category }) => {
                     </div>
                 </div>
             </div>
-
-
-            {/* 
-            <div className="card w-80 bg-base-100 shadow-xl" data-aos="zoom-out-right">
-                <figure className="px-10 pt-10">
-                    <img src={title_image} alt="Shoes" className="rounded-xl" />
-                </figure>
-                <div className="card-body items-center text-center" data-aos="zoom-out-left">
-                    <h2 className="card-title">{title}</h2>
-                    <p>{description}</p>
-                    <div className="inline-block" href="#">
-                        <Link to={`/category/${id}`}><button className='btn bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold'>
-                            Explore More
-                        </button></Link>
-                    </div>
-                </div>
-            </div> */}
         </div>
 
     );
